@@ -1,13 +1,14 @@
-
-import './App.css'
+import "./App.css";
+import { Footer } from "./components/Footer";
+import { Header } from "./components/Header";
 
 function App() {
-
   return (
-    <h1 className="text-3xl font-bold underline text-red-700">
-      Hello world!
-    </h1>
-  )
+    <>
+      <Header />
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;
