@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
-// import { IoPerson } from "react-icons/io5";
+
 import { Link } from "react-scroll";
 import { useDarkMode } from "../DarkModeContext";
 
