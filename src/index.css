@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#product-box {
+    display: flex !important;
+}
+
+.slick-slide div {
+    margin: 10px;
+}
+
+.slick-arrow::before {
+    color: #ff5a1f;
+    font-size: 50px;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-next {
+    right: -30px;
+}
+
+/* sliderStyles.css */
+
+.custom-slider {
+    position: relative;
+}
+
+.custom-slide {
+    animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
