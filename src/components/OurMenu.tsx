@@ -35,14 +35,14 @@ export const OurMenu = () => {
         { name: "Chicago Style", price: 140 },
         { name: "Brick Oven Pizza", price: 180 },
         { name: "Italian Pizza", price: 200 },
-        { name: "Neapolitan Pizza", price: 240 },
-        { name: "California Pizza", price: 280 },
-        { name: "New York Style Pizza", price: 280 },
-        { name: "Sicilian Pizza", price: 300 },
-        { name: "Greek Pizza", price: 320 },
-        { name: "Detroit Pizza", price: 360 },
-        { name: "Bagel Pizza", price: 375 },
-        { name: "French Break Pizza", price: 380 },
+        // { name: "Neapolitan Pizza", price: 240 },
+        // { name: "California Pizza", price: 280 },
+        // { name: "New York Style Pizza", price: 280 },
+        // { name: "Sicilian Pizza", price: 300 },
+        // { name: "Greek Pizza", price: 320 },
+        // { name: "Detroit Pizza", price: 360 },
+        // { name: "Bagel Pizza", price: 375 },
+        // { name: "French Break Pizza", price: 380 },
       ],
     },
     {
@@ -50,9 +50,9 @@ export const OurMenu = () => {
       items: [
         { name: "Hamburger", price: 140 },
         { name: "Turkey Burger", price: 180 },
-        { name: "Elk Burger", price: 200 },
-        { name: "Veggie Burger", price: 240 },
-        { name: "Wild Salmon Burger", price: 280 },
+        // { name: "Elk Burger", price: 200 },
+        // { name: "Veggie Burger", price: 240 },
+        // { name: "Wild Salmon Burger", price: 280 },
         { name: "Cheese Burger", price: 180 },
       ],
     },
@@ -104,11 +104,15 @@ export const OurMenu = () => {
                 {product.items.map((item, idx) => (
                   <div
                     key={idx}
-                    className="flex justify-between items-center px-14 py-1 text-2xl font-semibold"
+                    className="flex justify-between items-center md:px-14 px-5 py-1 md:text-2xl text-xl font-semibold"
                   >
-                    <span className="w-1/3">{item.name}</span>
-                    <span className="w-1/3 text-center">.........</span>
-                    <span className="w-1/3 text-right">₹ {item.price}</span>
+                    <span className="md:w-1/3 w-1/2">{item.name}</span>
+                    <span className="w-1/3 text-center hidden md:block">
+                      .........
+                    </span>
+                    <span className="md:w-1/3 w-1/4 text-right">
+                      ₹ {item.price}
+                    </span>
                   </div>
                 ))}
               </div>

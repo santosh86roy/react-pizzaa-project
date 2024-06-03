@@ -12,7 +12,7 @@ export const Footer = () => {
         <div className="bg-primary -rotate-2 h-12"></div>
         <div className="bg-footer-image bg-cover bg-bottom absolute inset-0 h-72"></div>
         <div className="bg-black opacity-90 h-72 -mt-12"></div>
-        <div className="-mt-72 text-white absolute z-50 md:px-32 px-11 w-full">
+        <div className="-mt-72 text-white absolute z-50 md:px-32 px-5 w-full">
           <div className="flex text-primary text-3xl mt-4">
             <span className="font-bold mr-1">Pizzaaa</span>
             <span>Cafe</span>
@@ -20,31 +20,45 @@ export const Footer = () => {
           <div className="w-full flex justify-between text-center">
             <div className="text-left">
               <div className="flex flex-col mt-4">
-                <span>Call to Order</span>
-                <span className="font-bold">022 2528 3458</span>
+                <span className="text-sm">Call to Order</span>
+                <span className="font-bold text-base">022 2528 3458</span>
               </div>
               <div className="flex flex-col mt-4">
-                <span>Email</span>
-                <span className="font-bold">pizzaaaCafe@email.com</span>
+                <span className="text-sm">Email</span>
+                <span className="font-bold text-base">
+                  pizzaaaCafe@email.com
+                </span>
               </div>
               <div className="flex flex-col mt-4">
-                <span>Address</span>
-                <span className="font-bold">Chembur, Mumbai - 400043</span>
+                <span className="text-sm">Address</span>
+                <span className="font-bold text-base">
+                  Chembur, Mumbai - 400043
+                </span>
               </div>
             </div>
-            <div>
+            <div className="hidden md:block">
               <div className="flex flex-col text-left">
-                <span className="font-bold">Useful Links</span>
-                <span>Home</span>
-                <span>Menu</span>
-                <span>About</span>
+                <span className="font-bold text-base">Useful Links</span>
+                <span className="text-sm">Home</span>
+                <span className="text-sm">Menu</span>
+                <span className="text-sm">About</span>
               </div>
             </div>
-            <div>
+            <div className="hidden md:block">
               <div className="flex flex-col text-left">
-                <span className="font-bold">Opening Hours</span>
-                <span>Mon - Fri : 10am - 11pm</span>
+                <span className="font-bold text-base">Opening Hours</span>
+                <span className="text-sm">Mon - Fri : 10am - 11pm</span>
               </div>
+            </div>
+            <div className="flex flex-col md:hidden text-center">
+              <span className="font-bold text-base">Useful Links</span>
+              <span className="text-sm">Home</span>
+              <span className="text-sm">Menu</span>
+              <span className="text-sm">About</span>
+              <span className="font-bold text-base">Opening Hours</span>
+              <span className="text-sm break-all">
+                Mon - Fri <br /> 10am - 11pm
+              </span>
             </div>
           </div>
         </div>

@@ -1,9 +1,9 @@
-import cheese from "../assets/cheese-Dfw_eXxV.jpg";
-import delicious from "../assets/delicious-fxLjy1wE.jpg";
-import peproni from "../assets/peproni-D3XyLGNg.jpg";
-import rustica from "../assets/rustica-BZqNCaHC.jpg";
-import tomato from "../assets/tomato-0pyFDcgy.jpg";
-import vege from "../assets/vege-DScus31V.jpg";
+import cheese from "../assets/new_peppy_paneer.jpg";
+import delicious from "../assets/Primavera.jpg";
+import peproni from "../assets/farmhouse.png";
+import rustica from "../assets/farmhouse.png";
+import tomato from "../assets/Primavera.jpg";
+import vege from "../assets/new_peppy_paneer.jpg";
 
 export const pizza = [
   {
