@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import BurgerCarouseImage from "../assets/banner4-uCkEY5Ar.jpg";
-import PastaCarouselImage from "../assets/Pasta.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 

@@ -1,14 +1,10 @@
-import React, { useEffect } from "react";
-import ExampleCarouselImage from "../assets/Burger.jpg";
-import BurgerCarouseImage from "../assets/Burger.jpg";
-import PastaCarouselImage from "../assets/Pasta.jpg";
 // import Shery from "sheryjs/dist/shery";
 // import ControlKit from "controlkit/dist/controlkit";
 
 export const OurMenu = () => {
-  const gradientStyle = {
-    background: "linear-gradient(0deg, #FFFFFF 0%, #FFFAEB 18%, #FEBD0B 100%)",
-  };
+  // const gradientStyle = {
+  //   background: "linear-gradient(0deg, #FFFFFF 0%, #FFFAEB 18%, #FEBD0B 100%)",
+  // };
   // useEffect(() => {
   //   // Load SheryJS
   //   const sheryInstance = new Shery();

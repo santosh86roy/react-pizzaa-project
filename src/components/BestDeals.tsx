@@ -1,16 +1,11 @@
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+import { useEffect } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ExampleCarouselImage from "../assets/Burger.jpg";
-import BurgerCarouseImage from "../assets/Burger.jpg";
-import PastaCarouselImage from "../assets/Pasta.jpg";
-import { DarkModeProvider, useDarkMode } from "../DarkModeContext";
+import { useDarkMode } from "../DarkModeContext";
 import { pizza } from "../components/Exports";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 export const BestDeals = () => {
   useEffect(() => {
@@ -21,7 +16,8 @@ export const BestDeals = () => {
       delay: 100,
     });
   }, []);
-  var settings = {
+
+  const settings = {
     dots: false,
     infinite: true,
     speed: 500,
@@ -58,48 +54,26 @@ export const BestDeals = () => {
       },
     ],
   };
-  const { darkMode, toggleDarkMode } = useDarkMode();
+
+  const { darkMode } = useDarkMode();
+
   return (
     <div>
-      {/* <AwesomeSlider>
-        <div>
-          <img
-            className="d-block w-100"
-            src={ExampleCarouselImage}
-            alt="First slide"
-          />
-        </div>
-        <div>
-          <img
-            className="d-block w-100"
-            src={BurgerCarouseImage}
-            alt="Second slide"
-          />
-        </div>
-        <div>
-          <img
-            className="d-block w-100"
-            src={PastaCarouselImage}
-            alt="Third slide"
-          />
-        </div>
-      </AwesomeSlider> */}
-
       <section
         id="pizza"
         className={`${
-          darkMode ? "dark:bg-black" : "light bg-white"
+          darkMode ? "dark:bg-black" : "bg-white"
         } h-fit w-full lg:px-20 px-3 lg:py-20 py-10 flex flex-col justify-center items-center gap-6`}
       >
         <h1
           data-aos="zoom-in"
           className="text-6xl text-black dark:text-white font-bold text-center"
         >
-          Our Best Saller
+          Our Best Seller
         </h1>
         <p
           data-aos="zoom-in"
-          className="text-xl text-black dark:text-slate-100 text-center "
+          className="text-xl text-black dark:text-slate-100 text-center"
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, iste!
         </p>

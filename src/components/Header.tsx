@@ -7,7 +7,7 @@ import { useDarkMode } from "../DarkModeContext";
 
 export const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { darkMode, toggleDarkMode } = useDarkMode();
+  const { darkMode } = useDarkMode();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

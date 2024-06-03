@@ -1,16 +1,15 @@
-import React from "react";
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 import ExampleCarouselImage from "../assets/Burger.jpg";
 import BurgerCarouseImage from "../assets/Burger.jpg";
 import PastaCarouselImage from "../assets/Pasta.jpg";
-import { DarkModeProvider, useDarkMode } from "../DarkModeContext";
+import { useDarkMode } from "../DarkModeContext";
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 export const MainHero = () => {
-  const { darkMode, toggleDarkMode } = useDarkMode();
+  useDarkMode();
   return (
     <>
       <AutoplaySlider

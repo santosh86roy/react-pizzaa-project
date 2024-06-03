@@ -1,9 +1,8 @@
 import Carousel from "react-bootstrap/Carousel";
 import styled from "styled-components";
 import ExampleCarouselImage from "../assets/Burger.jpg";
-import BurgerCarouseImage from "../assets/Burger.jpg";
 import PastaCarouselImage from "../assets/Pasta.jpg";
-// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const StyledCarouselItem = styled(Carousel.Item)`
   height: 70vh;
@@ -25,44 +24,41 @@ const StyledCarouselCaption = styled(Carousel.Caption)`
 export const Banners = () => {
   return (
     <Carousel fade>
-      <Carousel.Item>
+      <StyledCarouselItem>
         <img
           className="d-block w-100"
           src={ExampleCarouselImage}
           alt="First slide"
         />
-        <Carousel.Caption>
+        <StyledCarouselCaption>
           <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
+        </StyledCarouselCaption>
+      </StyledCarouselItem>
+      <StyledCarouselItem>
         <img
           className="d-block w-100"
-          src={BurgerCarouseImage}
+          src={ExampleCarouselImage}
           alt="Second slide"
         />
-        <Carousel.Caption>
+        <StyledCarouselCaption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
+        </StyledCarouselCaption>
+      </StyledCarouselItem>
+      <StyledCarouselItem>
         <img
           className="d-block w-100"
           src={PastaCarouselImage}
           alt="Third slide"
         />
-        <Carousel.Caption>
+        <StyledCarouselCaption>
           <h3>Third slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
-        </Carousel.Caption>
-      </Carousel.Item>
+        </StyledCarouselCaption>
+      </StyledCarouselItem>
     </Carousel>
   );
 };
-function useEffect(arg0: () => void, arg1: never[]) {
-  throw new Error("Function not implemented.");
-}
