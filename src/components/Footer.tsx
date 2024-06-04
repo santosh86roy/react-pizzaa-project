@@ -18,7 +18,7 @@ export const Footer = () => {
             <span>Cafe</span>
           </div>
           <div className="w-full flex justify-between text-center">
-            <div className="text-left">
+            <div className="text-left w-1/2 md:w-fit">
               <div className="flex flex-col mt-4">
                 <span className="text-sm">Call to Order</span>
                 <span className="font-bold text-base">022 2528 3458</span>
@@ -50,12 +50,12 @@ export const Footer = () => {
                 <span className="text-sm">Mon - Fri : 10am - 11pm</span>
               </div>
             </div>
-            <div className="flex flex-col md:hidden text-center">
+            <div className="flex flex-col md:hidden text-left">
               <span className="font-bold text-base">Useful Links</span>
               <span className="text-sm">Home</span>
               <span className="text-sm">Menu</span>
               <span className="text-sm">About</span>
-              <span className="font-bold text-base">Opening Hours</span>
+              <span className="font-bold mt-4 text-left">Opening Hours</span>
               <span className="text-sm break-all">
                 Mon - Fri <br /> 10am - 11pm
               </span>
@@ -71,12 +71,12 @@ export const Footer = () => {
       <div>
         <button
           onClick={toggleDarkMode}
-          className="flex items-center p-4 rounded-full bg-primary fixed lg:bottom-6 left-6 bottom-6"
+          className="flex items-center p-2 rounded-full bg-primary fixed lg:bottom-6 left-6 bottom-6"
         >
           {darkMode ? (
-            <FaMoon size={30} className="text-black" />
+            <FaMoon size={20} className="text-black" />
           ) : (
-            <FaSun size={30} className="text-black" />
+            <FaSun size={20} className="text-black" />
           )}
         </button>
       </div>
@@ -84,7 +84,7 @@ export const Footer = () => {
       {/* scroll to top button */}
       <div
         id="icon-box"
-        className="bg-primary text-black p-3 rounded-full hover:bg-white cursor-pointer fixed lg:bottom-6 right-6 bottom-6"
+        className="bg-primary text-black p-3 rounded-full hover:bg-white cursor-pointer fixed lg:bottom-6 right-6 bottom-6 hidden md:block"
       >
         <Link to="home" spy={true} offset={-100} smooth={true}>
           <FaArrowUp />
