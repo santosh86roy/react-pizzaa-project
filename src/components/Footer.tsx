@@ -32,7 +32,7 @@ export const Footer = () => {
                 <span className="text-sm">Chembur, Mumbai - 400043</span>
               </div>
             </div>
-            <div className="hidden md:block">
+            <div className="hidden md:block mt-3">
               <div className="flex flex-col text-left">
                 <span className="font-bold text-base">Useful Links</span>
                 <span className="text-sm">Home</span>
