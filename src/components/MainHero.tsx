@@ -17,7 +17,7 @@ export const MainHero = () => {
           slider: "custom-slider",
           slide: "custom-slide",
         }}
-        play={false}
+        play={true}
         cancelOnInteraction={false}
         interval={3000}
       >

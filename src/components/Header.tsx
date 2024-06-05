@@ -37,7 +37,7 @@ export const Header: React.FC = () => {
             <img
               src={Logo}
               alt=""
-              style={{ width: "40px", height: "40px", marginRight: "10px" }}
+              style={{ width: "50px", height: "50px", marginRight: "10px" }}
             />
             {/* <img
               src={Logo2}

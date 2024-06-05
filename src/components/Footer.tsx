@@ -20,20 +20,16 @@ export const Footer = () => {
           <div className="w-full flex justify-between text-center">
             <div className="text-left w-1/2 md:w-fit">
               <div className="flex flex-col mt-4">
-                <span className="text-sm">Call to Order</span>
-                <span className="font-bold text-base">022 2528 3458</span>
+                <span className=" font-bold text-base">Call to Order</span>
+                <span className="text-sm">022 2528 3458</span>
               </div>
               <div className="flex flex-col mt-4">
-                <span className="text-sm">Email</span>
-                <span className="font-bold text-base">
-                  pizzaaaCafe@email.com
-                </span>
+                <span className="font-bold text-base">Email</span>
+                <span className="text-sm ">pizzaaaCafe@email.com</span>
               </div>
               <div className="flex flex-col mt-4">
-                <span className="text-sm">Address</span>
-                <span className="font-bold text-base">
-                  Chembur, Mumbai - 400043
-                </span>
+                <span className="font-bold text-base">Address</span>
+                <span className="text-sm">Chembur, Mumbai - 400043</span>
               </div>
             </div>
             <div className="hidden md:block">
@@ -50,12 +46,14 @@ export const Footer = () => {
                 <span className="text-sm">Mon - Fri : 10am - 11pm</span>
               </div>
             </div>
-            <div className="flex flex-col md:hidden text-left">
+            <div className="flex flex-col md:hidden text-left mt-5 ">
               <span className="font-bold text-base">Useful Links</span>
               <span className="text-sm">Home</span>
               <span className="text-sm">Menu</span>
               <span className="text-sm">About</span>
-              <span className="font-bold mt-4 text-left">Opening Hours</span>
+              <span className="font-bold mt-7 text-left text-base">
+                Opening Hours
+              </span>
               <span className="text-sm break-all">
                 Mon - Fri <br /> 10am - 11pm
               </span>
