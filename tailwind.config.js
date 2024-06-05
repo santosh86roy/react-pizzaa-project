@@ -21,6 +21,13 @@ export default {
           white: "#FCF8EE",
         },
       },
+      width: {
+        "7/10": "70%",
+        "3/10": "30%",
+      },
+      borderRadius: {
+        "custom-40": "40px",
+      },
     },
   },
   plugins: [require("flowbite/plugin")],
