@@ -34,11 +34,7 @@ export const Header: React.FC = () => {
       >
         <div>
           <span className="text-2xl flex items-center">
-            <img
-              src={Logo}
-              alt=""
-              style={{ width: "50px", height: "50px", marginRight: "10px" }}
-            />
+            <img src={Logo} alt="" className="w-12 h-12 mr-3" />
             {/* <img
               src={Logo2}
               alt=""
