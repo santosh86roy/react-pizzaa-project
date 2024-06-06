@@ -156,38 +156,6 @@ const ContactUs: React.FC = () => {
                   </div>
                 </div>
 
-                {/* <div className="flex flex-col flex-1">
-                  <span className="material-icons text-6xl text-primary">
-                    location_on
-                  </span>
-                  <div>
-                    <div className="flex items-center mb-6">
-                      <h4 className="text-2xl font-semibold">Location</h4>
-                    </div>
-                    <div>
-                      <p className="text-gray-700 dark:text-gray-300 mb-1 hover:text-primary">
-                        155 Main Street, 2nd
-                      </p>
-                      <p className="text-gray-700 dark:text-gray-300 hover:text-primary">
-                        Floor New York City
-                      </p>
-                    </div>
-                  </div>
-                </div> */}
-                {/* <div className="flex flex-col flex-1">
-                  <span className="material-icons text-6xl text-primary">
-                    email
-                  </span>
-                  <div className="flex items-center mb-6">
-                    <h4 className="text-2xl font-semibold">Email Address</h4>
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300 mb-1 hover:text-primary">
-                    Support@gmail.com
-                  </p>
-                  <p className="text-gray-700 dark:text-gray-300 hover:text-primary">
-                    Contact@gmail.com
-                  </p>
-                </div> */}
                 <div className="flex flex-1 md:flex-row justify-between">
                   {/* Left side with icon */}
                   <div className="flex items-center md:mr-6">
@@ -211,20 +179,7 @@ const ContactUs: React.FC = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="flex flex-col flex-1">
-                  <span className="material-icons text-6xl text-primary">
-                    phone
-                  </span>
-                  <div className="flex items-center mb-6">
-                    <h4 className="text-2xl font-semibold">Phone Number</h4>
-                  </div>
-                  <p className="text-gray-700 dark:text-gray-300 mb-1 hover:text-primary">
-                    + 49 123 456 789
-                  </p>
-                  <p className="text-gray-700 dark:text-gray-300 hover:text-primary">
-                    + 49 123 456 789
-                  </p>
-                </div> */}
+
                 <div className="flex flex-1 md:flex-row justify-between">
                   {/* Left side with icon */}
                   <div className="flex items-center md:mr-6">
