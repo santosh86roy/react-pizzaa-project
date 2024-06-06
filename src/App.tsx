@@ -9,6 +9,7 @@ import { DarkModeProvider } from "./DarkModeContext";
 import TopRated from "./components/TopRated";
 import { MainHero } from "./components/MainHero";
 import AboutUs from "./components/AboutUs"; // Corrected import statement
+import ContactUs from "./components/ContactUs";
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Header />
       <MainHero />
       <AboutUs /> {/* Ensure this is correctly placed */}
+      <ContactUs />
       <OurMenu />
       <BestDeals />
       <TopRated />

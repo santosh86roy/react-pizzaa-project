@@ -20,6 +20,9 @@ export default {
           black: "#221D1C",
           white: "#FCF8EE",
         },
+        bgaboutus: {
+          redness: "",
+        },
       },
       width: {
         "7/10": "70%",
