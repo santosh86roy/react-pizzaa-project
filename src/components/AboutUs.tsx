@@ -43,19 +43,19 @@ const AboutUs: React.FC = () => {
                 <h2 className="text-5xl font-bold mb-4">
                   The Story About Pizzon
                 </h2>
-                <p className="text-gray-700 dark:text-gray-300 mb-6">
+                <p className="text-gray-700 dark:text-gray-300 mb-6 text-xl">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <div className="md:flex flex-col md:flex-row mt-14">
+                <div className="md:flex flex-col md:flex-row mt-14 gap-12">
                   <div className="flex flex-col flex-1">
                     <div className="flex items-center mb-6">
                       <h4 className="text-2xl font-semibold">
                         Our Family Name
                       </h4>
                     </div>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6">
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 text-xl">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
@@ -65,7 +65,7 @@ const AboutUs: React.FC = () => {
                     <div className="flex items-center mb-6">
                       <h4 className="text-2xl font-semibold">Our Journey</h4>
                     </div>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6">
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 text-xl">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
@@ -86,7 +86,7 @@ const AboutUs: React.FC = () => {
                     <div className="flex items-center mb-6">
                       <h4 className="text-2xl font-semibold">Food and Fun</h4>
                     </div>
-                    <p className="text-gray-700 dark:text-gray-300 mb-6">
+                    <p className="text-gray-700 dark:text-gray-300 mb-6 text-xl">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua.
